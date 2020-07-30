@@ -8,7 +8,7 @@ def list_dwarves(array)
   dwarves.map.with_index do |dwarf, i|
       "#{i + 1}. #{dwarf}"
     end.join("\n")
-
+end
 # Use `each` to enumerate over the provided array
 #
 # Print a custom greeting for each element
