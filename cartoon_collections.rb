@@ -5,9 +5,8 @@ puts "Hello Bashful!"
 end
 
 def list_dwarves(array)
-  [:Dopey, :Grumpy, :Bashful].each_with_index do |object, index|
-  indexplusone = index + 1
-  puts "#{object} at index #{indexplusone}"
+  dwarves = ['Dopey', 'Grumpy', 'Bashful']
+  dwarves.each_with_index { |item, index+1| p "#{index}:#{item}" }
 end
 
 # Use `each` to enumerate over the provided array
