@@ -5,11 +5,10 @@ puts "Hello Bashful!"
 end
 
 def list_dwarves(array)
-  hash = Hash.new
-%w(Dopey Grumpy Bashful).each_with_index { |item, index|
-  hash[item] = index
-}
-hash
+  dwarves.map.with_index do |dwarf, i|
+      "#{i + 1}. #{dwarf}"
+    end.join("\n")
+  end
 end
 
 # Use `each` to enumerate over the provided array
