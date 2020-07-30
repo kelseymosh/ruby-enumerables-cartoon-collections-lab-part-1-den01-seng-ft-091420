@@ -5,9 +5,9 @@ puts "Hello Bashful!"
 end
 
 def list_dwarves(array)
-puts "1. Dopey"
-puts "2. Grumpy"
-puts "3. Bashful"
+  %w(Dopey Grumpy Bashful).each_with_index { |item, index|
+    hash[item] = index
+  }
 end
 # Use `each` to enumerate over the provided array
 #
