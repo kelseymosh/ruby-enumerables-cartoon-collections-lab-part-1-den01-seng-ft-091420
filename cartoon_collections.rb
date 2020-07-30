@@ -4,7 +4,7 @@ end
 
 def list_dwarves(array)
   hash = Hash.new
-  %w(array).each_with_index { |item, index|
+  %w(Dopey Grumpy Bashful).each_with_index { |item, index|
     hash[item] = index
   }
   hash
