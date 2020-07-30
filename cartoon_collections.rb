@@ -5,13 +5,12 @@ puts "Hello Bashful!"
 end
 
 def list_dwarves(array)
-  dwarves.map.with_index do |dwarf, i|
-    "#{i + 1}. #{dwarf}"
-  end.join("\n")
-end
-
-dwarves = %w{Doc Dopey Bashful Grumpy}
-puts roll_call_dwarves(dwarves)
+  hash = Hash.new
+%w(Dopey Grumpy Bashful).each_with_index { |dwarves, index|
+  hash[item] = index
+}
+hash  
+puts dwarves
 end
 # Use `each` to enumerate over the provided array
 #
