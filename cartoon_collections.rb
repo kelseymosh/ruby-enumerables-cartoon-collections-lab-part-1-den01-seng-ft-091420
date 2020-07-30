@@ -4,10 +4,10 @@ end
 
 def list_dwarves(array)
   hash = Hash.new
-  %w(1. Dopey 2. Grumpy 3. Bashful).each_with_index { |item, index|
-    hash[item] = index
-  }
-  hash
+%w(Dopey Grumpy Bashful).each_with_index { |item, index|
+  hash[item] = index
+}
+hash 
 end
 
 # Use `each` to enumerate over the provided array
