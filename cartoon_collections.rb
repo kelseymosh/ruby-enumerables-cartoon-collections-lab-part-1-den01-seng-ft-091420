@@ -9,7 +9,7 @@ def list_dwarves(array)
 %w(Dopey Grumpy Bashful).each_with_index { |dwarves, index|
   hash[item] = index
 }
-hash  
+hash
 puts dwarves
 end
 # Use `each` to enumerate over the provided array
