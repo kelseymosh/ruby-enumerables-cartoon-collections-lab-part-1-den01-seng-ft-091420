@@ -6,8 +6,12 @@ end
 
 def list_dwarves(array)
   dwarves.map.with_index do |dwarf, i|
-      "#{i + 1}. #{dwarf}"
-    end.join("\n")
+    "#{i + 1}. #{dwarf}"
+  end.join("\n")
+end
+
+dwarves = %w{Doc Dopey Bashful Grumpy}
+puts roll_call_dwarves(dwarves)
 end
 # Use `each` to enumerate over the provided array
 #
