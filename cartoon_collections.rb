@@ -1,5 +1,5 @@
 def greet_characters(array)
-dwarves = ["Dopey", "Grumpy", "Bashful"]
+dwarves = ["Hello Dopey!", "Hello Grumpy!", "Hello Bashful!"]
 dwarves.each do |dwarf|
   puts dwarf
 end
