@@ -1,5 +1,5 @@
 def greet_characters(array)
-
+puts "Hello Dopey!"
 end
 
 def list_dwarves(array)
